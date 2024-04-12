@@ -40,10 +40,18 @@ nav,
   line-height: 24px; /* Возвращено в исходное значение */
 }
 .font3 {
+  display: flex;
   font-family: "Roboto", sans-serif;
   font-size: 14px; /* Возвращено в исходное значение */
   font-weight: 400;
   line-height: 20px; /* Возвращено в исходное значение */
+  width: 134.67px; /* Изменено с 202px */
+  height: 32px; /* Изменено с 48px */
+  border-radius: 16px 0px 0px 0px; /* Изменено с 24px */
+  border: 3px solid #f2f2f2;
+  border-radius: 50px;
+  align-items: center;
+  justify-content: center;
 }
 
 ul {
@@ -91,8 +99,8 @@ a {
 .start-free {
   display: flex;
   background-color: #4262ff;
-  width: 440px; /* Возвращено в исходное значение */
-  height: 51px; /* Возвращено в исходное значение */
+  width: 448px; /* Возвращено в исходное значение */
+  height: 57px; /* Возвращено в исходное значение */
   justify-content: center;
   align-items: center;
   border-radius: 50px;
@@ -119,4 +127,12 @@ article {
 .list {
   display: flex;
   justify-content: space-evenly;
+}
+.statistik {
+  background-color: #ffd02f;
+  display: flex;
+  justify-content: center;
+}
+.block {
+  display: flex;
 }
