@@ -1,0 +1,122 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+
+body,
+html {
+  overflow-x: hidden;
+}
+nav,
+.header-main,
+.main,
+.main2 {
+  display: flex;
+  justify-content: space-between; /* Распределение элементов по краям контейнера */
+  align-items: center; /* Выравнивание элементов по вертикали */
+  padding: 0 20px; /* Добавим немного отступа справа и слева */
+}
+.main3 {
+  display: flex;
+  justify-content: space-between; /* Распределение элементов по краям контейнера */
+  margin-left: 20px;
+}
+.left-section {
+  display: flex;
+  align-items: center; /* Выравнивание по вертикали */
+}
+.left-section-header-main,
+.left-section-main,
+.right-section-main2 {
+  width: 430px; /* Возвращено в исходное значение */
+}
+.font1 {
+  font-family: "Roboto", sans-serif;
+  font-size: 48px; /* Возвращено в исходное значение */
+  font-weight: 400;
+  line-height: 56px; /* Возвращено в исходное значение */
+}
+.font2 {
+  font-family: "Roboto", sans-serif;
+  font-size: 18px; /* Возвращено в исходное значение */
+  font-weight: 400;
+  line-height: 24px; /* Возвращено в исходное значение */
+}
+.font3 {
+  font-family: "Roboto", sans-serif;
+  font-size: 14px; /* Возвращено в исходное значение */
+  font-weight: 400;
+  line-height: 20px; /* Возвращено в исходное значение */
+}
+
+ul {
+  display: flex;
+  justify-content: space-evenly;
+  list-style-type: none;
+  padding: 0;
+  margin: 0; /* Убираем внешние отступы */
+  width: 600px; /* Возвращено в исходное значение */
+}
+
+li {
+  margin-left: 20px; /* Возвращено в исходное значение */
+}
+
+.right-section {
+  display: flex;
+  align-items: center; /* Выравнивание по вертикали */
+}
+.right-section-header-main {
+  margin-right: 50px; /* Возвращено в исходное значение */
+  margin-top: 80px; /* Возвращено в исходное значение */
+}
+.right-section-header-main-img {
+  width: 403px; /* Возвращено в исходное значение */
+  height: 307px; /* Возвращено в исходное значение */
+}
+
+.nav_btn {
+  display: flex;
+  background-color: #4262ff;
+  width: 157px; /* Возвращено в исходное значение */
+  height: 50px; /* Возвращено в исходное значение */
+  justify-content: center;
+  align-items: center;
+  border-radius: 50px;
+  margin-left: 90px; /* Возвращено в исходное значение */
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+.start-free {
+  display: flex;
+  background-color: #4262ff;
+  width: 440px; /* Возвращено в исходное значение */
+  height: 51px; /* Возвращено в исходное значение */
+  justify-content: center;
+  align-items: center;
+  border-radius: 50px;
+}
+.start-free-input {
+  width: 440px; /* Возвращено в исходное значение */
+  height: 51px; /* Возвращено в исходное значение */
+  border-radius: 50px;
+  margin-top: 35px; /* Возвращено в исходное значение */
+  margin-bottom: 20px; /* Возвращено в исходное значение */
+}
+.know-more {
+  color: #4262ff;
+  text-decoration: underline;
+}
+article h3 {
+  display: inline-block; /* Добавлено */
+  margin-right: 10px; /* Пространство между заголовками */
+}
+article {
+  width: 100vw;
+  margin-left: 20px;
+}
+.list {
+  display: flex;
+  justify-content: space-evenly;
+}
